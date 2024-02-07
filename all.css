@@ -4043,7 +4043,14 @@ textarea.form-control-lg {
 .navbar-brand:focus,.navbar-brand:hover {
     color: var(--bs-navbar-brand-hover-color)
 }
+.btn-cv-wrapper{
+    border:none;
+    background-color: #000 !important;
+    color: #fff;
+    border-radius: 8px;
 
+
+}
 .navbar-nav {
     --bs-nav-link-padding-x: 0;
     --bs-nav-link-padding-y: 0.5rem;
@@ -4053,9 +4060,13 @@ textarea.form-control-lg {
     --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-left: 0;
     margin-bottom: 0;
-    list-style: none
+    list-style: none;
+ 
+   
+
 }
 
 .navbar-nav .nav-link.active,.navbar-nav .show>.nav-link {
@@ -12445,6 +12456,7 @@ a:hover {
 
 .nav-special.fullscreen-nav .caret,.nav-special.fullscreen-nav .dropdown-menu .dropdown .caret {
     border-width: 8px;
+    /* background-color: #0c4128; */
 }
 
 .nav-special .navbar-nav .show>.nav-link {
